@@ -1,0 +1,16 @@
+{
+  "name": "rodney-sandbox-setup",
+  "owner": {
+    "name": "Karim"
+  },
+  "description": "Provision and verify a working rodney (simonw/rodney) install inside network-sandboxed, container-based dev environments.",
+  "plugins": [
+    {
+      "name": "rodney-sandbox-setup",
+      "source": "./",
+      "description": "Provision and verify a working rodney (simonw/rodney — Go CLI that drives a persistent headless Chrome over the DevTools protocol) install inside network-sandboxed, container-based dev environments: Chrome for Testing download, the sandbox's TLS MITM proxy, the --single-process crash patch, and persisting env vars.",
+      "category": "engineering",
+      "keywords": ["rodney", "headless-chrome", "scraping", "sandbox", "devtools"]
+    }
+  ]
+}
