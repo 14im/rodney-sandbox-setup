@@ -1,0 +1,6 @@
+{
+  "name": "rodney-sandbox-setup",
+  "description": "Provision and verify a working rodney (simonw/rodney) install in network-sandboxed, container-based dev environments.",
+  "version": "1.0.0",
+  "author": { "name": "Karim" }
+}

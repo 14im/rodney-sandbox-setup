@@ -1,0 +1,12 @@
+diff --git a/main.go b/main.go
+index a5188db..eb3030b 100644
+--- a/main.go
++++ b/main.go
+@@ -377,7 +377,6 @@ func cmdStart(args []string) {
+ 	l := launcher.New().
+ 		Set("no-sandbox").
+ 		Set("disable-gpu").
+-		Set("single-process"). // Required for screenshots in gVisor/container environments
+ 		Leakless(false).        // Keep Chrome alive after CLI exits
+ 		UserDataDir(dataDir).
+ 		Headless(headless)
